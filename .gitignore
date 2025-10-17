@@ -1,3 +1,16 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon and metadata files
+Icon?
+._*
+
+# Thumbnails
+ehthumbs.db
+Thumbs.db
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
