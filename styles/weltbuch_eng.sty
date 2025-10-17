@@ -8,7 +8,7 @@
 paperwidth=6in,
 paperheight=9in,
 inner=1in,
-outer=0.9in,
+outer=1in,
 top=1in,
 bottom=1in
 ]{geometry}
@@ -102,7 +102,7 @@ bottom=1in
 % \fancyhead[LE,RO]{\nouppercase{\leftmark}}
 
 % Fußzeilen: Seitenzahl außen
-\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[C]{\thepage}
 
 % Linie oben (Standard: 0.4pt)
 \renewcommand{\headrulewidth}{0.4pt}
@@ -119,7 +119,7 @@ bottom=1in
 % Kapitelanfangsseiten (plain) → ohne Kopf, nur Seitenzahl unten
 \fancypagestyle{plain}{%
 	\fancyhf{}
-	\fancyfoot[LE,RO]{\thepage}
+	\fancyfoot[C]{\thepage}
 	\renewcommand{\headrulewidth}{0pt}
 }
 
